@@ -19,7 +19,7 @@ a:hover {
     width: 100px;
     height: 100px;
     position: relative;
-    top: 50px;
+    top: 5px;
     left: 50px;
 }
 #header {
@@ -27,12 +27,13 @@ a:hover {
     position: relative; /* Adicionando Position e z-Index */
     z-index: 90;
     box-sizing: border-box;
-    height: 70px;
+    height: 120px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #d7e2b0d8;
+    margin-top: 0px;
 }
 #menu {
     display: flex;
@@ -46,10 +47,10 @@ a:hover {
     position: relative;
     z-index: 10;
     gap: 0.5rem;
-    padding-top: 90px;
+    padding-top: 1px;
 }
 #carouselExampleIterval img {
-    height: auto;
+    height: 850px;
 }
 
 @media (max-width: 600px) {
@@ -121,7 +122,7 @@ a:hover {
         max-width: 100%;
         margin-top: 18px;
         margin-bottom: 0;
-        padding-top: 0;
+        padding-top: 1;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -148,10 +149,10 @@ a:hover {
     height: 500px;
     padding: 50px;
     margin: 18px auto;
-    background-color: #49ca7f;
+    background-color: #9ac0aa;
 }
 .section-banner-home img {
-    height: 400px;
+    height: 360px;
 }
 .section-banner-home .texto-banner{
     margin-top: 30px;
@@ -163,7 +164,7 @@ a:hover {
     width: 60%;
     font-weight: 500;
     padding-bottom: 20px; /* Margem interna do texto */
-    color: #fff;
+    color: #fffafa;
 }
 
 .section-banner-home .texto-banner p {
