@@ -40,7 +40,7 @@ a:hover {
     list-style: none;
     gap: 0.5rem;
 }
-#bnt-mobile{
+#btn-mobile{
     display: none;
 }
 #carouselExampleInterval{
@@ -126,6 +126,10 @@ a:hover {
         padding-left: 30px;
         padding-right: 30px;
     }
+     .container-fluid{
+        background-color: beige;
+        margin-top: 50px;
+    }
 
     .embed-container iframe, .embed-container object, .embed-container embed {
         position: relative;
@@ -155,6 +159,7 @@ a:hover {
     padding: 50px;
     margin: 18px auto;
     background-color: #9ac0aa;
+    align-items: baseline;
 }
 .section-banner-home img {
     height: 360px;
@@ -224,7 +229,7 @@ a:hover {
     margin: 70px auto;
 }
 .novidades h2 {
-    color: #fff;
+    color: rgb(241, 231, 169);
 }
 .novidades p {
     color: #fff;
@@ -232,7 +237,7 @@ a:hover {
 .novidades a {
     color: #000;
     text-decoration: underline;
-    text-decoration-color: violet;
+    text-decoration-color: rgb(156, 228, 189);
     padding: 6px 12px;
     background-color: #fff;
     font-weight: 400;
@@ -329,7 +334,7 @@ font-size: 13px;
         text-transform: uppercase;
     }
     .heading {
-        border-bottom: 1px solid #fcab0e;
+        border-bottom: 1px solid #f8e640b0;
         padding-bottom: 9pa;
         position: relative;
     }
@@ -396,7 +401,7 @@ font-size: 13px;
     background-color: #9ac0aa;
 }
 .section-banner-home img {
-    height: 400px;
+    height: 360px;
 }
 .section-banner-home .texto-banner{
     margin-top: 30px;
@@ -408,7 +413,7 @@ font-size: 13px;
     width: 60%;
     font-weight: 500;
     padding-bottom: 20px; /* Margem interna do texto */
-    color: #fff;
+    color: #fffafa;
 }
 
 .section-banner-home .texto-banner p {
@@ -447,7 +452,7 @@ font-size: 13px;
     justify-content: center;
     display: flex;
     text-decoration: none;
-    color: #8c30f4;
+    color: #d0e769;
     font-size: 18px;
     font-weight: bold;
     margin: 30px 0;
@@ -455,7 +460,7 @@ font-size: 13px;
 /* Fim CSS destaque */
 /* Início CSS novidades */
 .novidades {
-    background-color: #7942d1;
+    background-color: #74d4a4;
     padding: 50px;
 }
 .novidades .text-body {
@@ -463,7 +468,7 @@ font-size: 13px;
     margin: 70px auto;
 }
 .novidades h2 {
-    color: #fff;
+    color: rgb(241, 231, 169);
 }
 .novidades p {
     color: #fff;
@@ -471,30 +476,12 @@ font-size: 13px;
 .novidades a {
     color: #000;
     text-decoration: underline;
-    text-decoration-color: violet;
+    text-decoration-color: rgb(156, 228, 189);
     padding: 6px 12px;
     background-color: #fff;
     font-weight: 400;
 }
 /* Fim CSS novidades */
-/* Início CSS galeria */
-.galeria{
-    margin: 60px auto 20px;
-}
-.galeria h2{
-    text-align: center;
-    font-size: 24px;
-}
-.galeria p{
-    text-align: center;
-    width: 50%;
-    margin: 14px auto 50px;
-}
-.galeria .gallery{
-    width: 30%;
-    margin: 14px auto 50px;
-}
-/* Fim CSS Galeria */
 /* Início CSS galeria */
 .galeria{
     margin: 60px auto 20px;
