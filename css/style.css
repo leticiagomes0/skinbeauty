@@ -17,10 +17,10 @@ a:hover {
 #logo img {
     float: left;
     width: 100px;
-    height: 100px;
+    height: 90px;
     position: relative;
     top: 2px;
-    left: 50px;
+    left: 30px;
 }
 #header {
     width: 100%;
@@ -34,7 +34,7 @@ a:hover {
     justify-content: space-between;
     background: #d7e2b0d8;
     margin-top: 0px;
-}
+} 
 #menu {
     display: flex;
     list-style: none;
@@ -47,10 +47,10 @@ a:hover {
     position: relative;
     z-index: 10;
     gap: 0.5rem;
-    padding-top: 1px;
+    padding-top: 0px;
 }
-#carouselExampleIterval img {
-    height: auto;
+#carouselExampleInterval img {
+    height: 700px;
 }
 
 @media (max-width: 600px) {
@@ -104,7 +104,7 @@ a:hover {
         position: relative;
     }
     #nav.active #hamburger {
-        border-top-color: transparent;
+        border-top-color: #9ac0aa;
     }
     #nav.active #hamburger::before{
         transform: rotate(135deg);
@@ -126,10 +126,7 @@ a:hover {
         padding-left: 30px;
         padding-right: 30px;
     }
-     .container-fluid{
-        background-color: beige;
-        margin-top: 50px;
-    }
+
 
     .embed-container iframe, .embed-container object, .embed-container embed {
         position: relative;
@@ -227,6 +224,7 @@ a:hover {
 .novidades .text-body {
     width: 80%;
     margin: 70px auto;
+    
 }
 .novidades h2 {
     color: rgb(241, 231, 169);
@@ -288,16 +286,16 @@ font-size: 13px;
     margin-top: 40px;
 }
     /* CSS página media.html */
-  .embed-container {
-        position: relative;
-        padding-bottom: 0;
-        height: auto;
-        max-width: 100%;
-        margin-top: 18px;
-        margin-bottom: 0;
-        padding-top: 0;
-        padding-left: 30px;
-        padding-right: 30px;
+        .embed-container {
+            position: relative;
+            padding-bottom: 0;
+            height: auto;
+            max-width: 100%;
+            margin-top: 18px;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-left: 30px;
+            padding-right: 30px;
 }
 
     .embed-container iframe, .embed-container object, .embed-container embed {
@@ -460,7 +458,7 @@ font-size: 13px;
 /* Fim CSS destaque */
 /* Início CSS novidades */
 .novidades {
-    background-color: #74d4a4;
+    background-color: #9ac0aa;
     padding: 50px;
 }
 .novidades .text-body {
@@ -526,3 +524,18 @@ font-size: 13px;
     text-align: center;
     margin-top: 40px;
 }
+/*Início mapa CSS */
+
+.map {
+    /* min-width: 300px;
+    min-height: 300px; */
+    width: auto;
+    height: auto;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Fim mapa CSS */
